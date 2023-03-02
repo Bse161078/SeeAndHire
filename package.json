@@ -1,0 +1,61 @@
+{
+  "name": "SeeAndHire",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start --port 9988",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-firebase/app": "^15.3.0",
+    "@react-native-firebase/messaging": "^15.3.0",
+    "@react-navigation/bottom-tabs": "^5.11.11",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "axios": "^0.21.1",
+    "moment": "^2.29.4",
+    "react": "16.13.1",
+    "react-native": "0.63.5",
+    "react-native-agora": "2.9.1-alpha.7",
+    "react-native-app-intro-slider": "^4.0.4",
+    "react-native-date-picker": "^4.2.5",
+    "react-native-fbsdk": "^3.0.0",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-google-places-autocomplete": "^2.4.1",
+    "react-native-google-signin": "^2.1.1",
+    "react-native-image-crop-picker": "^0.36.2",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-maps": "^0.28.0",
+    "react-native-modal-dropdown": "^1.0.2",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "3.10.2",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-video": "^5.2.0",
+    "react-native-webview": "^11.6.5",
+    "react-redux": "^7.2.4",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
